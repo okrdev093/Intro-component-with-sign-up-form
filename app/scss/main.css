@@ -1,7 +1,90 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
+  background-image: url("./../images/bg-intro-mobile.png");
+  background-repeat: repeat;
+  background-color: #FF7978;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container {
+  padding: 1.5rem;
+  width: 100%;
+  min-height: 100vh;
+}
+@media (min-width: 780px) {
+  .container {
+    display: flex;
+  }
+}
+
+.hero {
+  padding-top: 6.25rem;
+  text-align: center;
+}
+.hero__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.hero__paragraph {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.hero__cta {
+  background-color: #6055a5;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  padding: 1.2rem 3rem;
+}
+
+.form {
   background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+.form input {
+  width: 100%;
+  display: block;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.form button {
+  background-color: #38cc8c;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 1.2rem 3rem;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+.form p {
+  color: #b9b6d3;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+.form p strong {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
